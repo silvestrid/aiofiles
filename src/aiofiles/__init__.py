@@ -9,6 +9,7 @@ from .threadpool import (
     stderr_bytes,
 )
 from . import tempfile
+__version__ = "23.0.1"
 
 __all__ = [
     "open",
